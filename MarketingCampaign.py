@@ -145,8 +145,9 @@ class MyFrame(wx.Frame):
     def ShowCMPanel(parent):
         
         parent.MainPanel.Hide()
-        parent.Sizer.Clear()
-        parent.Sizer.Add(parent.CMPanel)
+        #parent.Sizer.Clear()
+        #parent.Sizer.Add(parent.CMPanel)
+        
         parent.CMPanel.Show()
         parent.CMPanel.Layout()
 
